@@ -99,25 +99,16 @@
     },
     {
       "id": 8,
-      "area": {
-        "id": 2077,
-        "name": "Europe",
-        "countryCode": "EUR",
-        "ensignUrl": null
-      },
       "name": "European Championship",
       "code": "EC",
       "emblemUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/9/96/UEFA_Euro_2020_Logo.svg/1200px-UEFA_Euro_2020_Logo.svg.png",
-      "plan": "TIER_ONE",
       "currentSeason": {
         "id": 507,
         "startDate": "2020-06-12",
         "endDate": "2020-07-12",
         "currentMatchday": 1,
         "winner": null
-      },
-      "numberOfAvailableSeasons": 2,
-      "lastUpdated": "2018-08-23T12:16:01Z"
+      }
     }
   ]
 }

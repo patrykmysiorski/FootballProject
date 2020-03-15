@@ -17,7 +17,7 @@
       "id": 2,
       "name": "Premier League",
       "code": "PL",
-      "emblemUrl": "https://upload.wikimedia.org/wikipedia/en/a/ae/Flag_of_the_United_Kingdom.svg",
+      "emblemUrl": "flags/england.png",
       "currentSeason": {
         "id": 468,
         "startDate": "2019-08-09",
@@ -43,7 +43,7 @@
       "id": 4,
       "name": "Ligue 1",
       "code": "FL1",
-      "emblemUrl": "https://upload.wikimedia.org/wikipedia/en/c/c3/Flag_of_France.svg",
+      "emblemUrl": "flags/france.png",
       "currentSeason": {
         "id": 499,
         "startDate": "2019-08-09",

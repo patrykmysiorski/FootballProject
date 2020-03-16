@@ -1,32 +1,27 @@
 var rawbase =
   "https://raw.githubusercontent.com/patrykmysiorski/FootballProject/";
+console.log(rawbase);
 var jsonloc = "add-competitions/competitions.json";
+var rootDirectory = "file:///C:/Users/Patryk/Desktop/FootballProject/";
 $(document).ready(function() {
   $.getJSON(rawbase + jsonloc, function(data) {
-    var firstRowCompetitions = "";
-    var secondRowCompetitions = "";
+    var grids = "";
     $.each(data, function(key, value) {
       $.each(value, function(key, value) {
-        if (value.id <= 4) {
-          firstRowCompetitions += "<td>";
-          firstRowCompetitions += '<div class="competition">';
-          firstRowCompetitions +=
-            '<img src="' + value.emblemUrl + '"width="200" height="200">';
-          firstRowCompetitions += "<h2>" + value.name + "</h2>";
-          firstRowCompetitions += "</div>";
-          firstRowCompetitions += "</td>";
+        grids += '<a href="' + rootDirectory + value.subPageUrl + '">';
+        grids += '<div class="div' + value.id + '">';
+        if (value.id == 1 || value.id > 6) {
+          grids +=
+            '<img src="' + value.emblemUrl + '"width="200" height="100" />';
         } else {
-          secondRowCompetitions += "<td>";
-          firstRowCompetitions += '<div class="competition">';
-          secondRowCompetitions +=
-            '<img src="' + value.emblemUrl + '"width="200" height="200">';
-          secondRowCompetitions += "<h2>" + value.name + "</h2>";
-          secondRowCompetitions += "</div>";
-          secondRowCompetitions += "</td>";
+          grids += '<img src="../' + value.emblemUrl + '" />';
         }
+
+        grids += "<h2>" + value.name + "</h2>";
+        grids += "</div>";
+        grids += "</a>";
       });
     });
-    $("#firstRowCompetitions").append(firstRowCompetitions);
-    $("#secondRowCompetitions").append(secondRowCompetitions);
+    $("#parent").append(grids);
   });
 });

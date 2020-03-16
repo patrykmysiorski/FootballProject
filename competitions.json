@@ -4,7 +4,7 @@
       "id": 1,
       "name": "UEFA Champions League",
       "code": "CL",
-      "emblemUrl": "flags/champions_league.png",
+      "emblemUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bf/UEFA_Champions_League_logo_2.svg/1200px-UEFA_Champions_League_logo_2.svg.png",
       "currentSeason": {
         "id": 495,
         "startDate": "2019-06-25",

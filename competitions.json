@@ -4,7 +4,7 @@
       "id": 1,
       "name": "UEFA Champions League",
       "code": "CL",
-      "emblemUrl": "https://upload.wikimedia.org/wikipedia/en/b/bf/UEFA_Champions_League_logo_2.svg",
+      "emblemUrl": "flags/champions_league.svg",
       "currentSeason": {
         "id": 495,
         "startDate": "2019-06-25",
@@ -30,7 +30,7 @@
       "id": 3,
       "name": "Bundesliga",
       "code": "BL1",
-      "emblemUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Flag_of_Germany.svg",
+      "emblemUrl": "flags/germany.png",
       "currentSeason": {
         "id": 474,
         "startDate": "2019-08-16",
@@ -56,7 +56,7 @@
       "id": 5,
       "name": "Serie A",
       "code": "SA",
-      "emblemUrl": "https://upload.wikimedia.org/wikipedia/en/0/03/Flag_of_Italy.svg",
+      "emblemUrl": "flags/italy.png",
       "currentSeason": {
         "id": 530,
         "startDate": "2019-08-24",
@@ -69,7 +69,7 @@
       "id": 6,
       "name": "Primera Division",
       "code": "PD",
-      "emblemUrl": "https://upload.wikimedia.org/wikipedia/en/9/9a/Flag_of_Spain.svg",
+      "emblemUrl": "flags/spain.png",
       "currentSeason": {
         "id": 519,
         "startDate": "2019-08-16",

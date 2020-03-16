@@ -1,6 +1,5 @@
 var rawbase =
   "https://raw.githubusercontent.com/patrykmysiorski/FootballProject/";
-console.log(rawbase);
 var jsonloc = "add-competitions/competitions.json";
 var rootDirectory = "file:///C:/Users/Patryk/Desktop/FootballProject/";
 $(document).ready(function() {

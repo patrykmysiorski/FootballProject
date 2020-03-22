@@ -1,7 +1,89 @@
 body {
   background-color: #282c34;
-  color: white;
   padding: 40px;
   font-family: Arial;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  background-color: #f1f1f1;
   text-align: center;
+  padding: 20px;
+  width: 300px;
+  margin-left: 40%;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+}
+
+input:disabled[type="submit"] {
+  background-color: red;
+  color: white;
+}
+
+#usernameConditions {
+  display: none;
+  color: #fff;
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+#usernameConditions p {
+  padding: 10px 35px;
+  font-size: 18px;
+}
+
+#passwordConditions {
+  display: none;
+  color: #fff;
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+#passwordConditions p {
+  padding: 10px 35px;
+  font-size: 18px;
+}
+
+.validLabel {
+  color: #008000;
+}
+
+.invalidLabel {
+  color: red;
+}
+
+.valid {
+  color: #008000;
+}
+
+.valid:before {
+  position: relative;
+  left: -15px;
+  content: url(icons/correct.png);
+}
+
+.invalid {
+  color: red;
+}
+
+.invalid:before {
+  position: relative;
+  left: -15px;
+  content: url(icons/incorrect.png);
 }

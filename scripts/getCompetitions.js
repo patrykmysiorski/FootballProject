@@ -7,7 +7,7 @@ $(document).ready(function() {
     var grids = "";
     $.each(data, function(key, value) {
       $.each(value, function(key, value) {
-        grids += '<a href="' + value.subPageUrl + '">';
+        grids += '<a href="subpages/leagues/' + value.subPageUrl + '">';
         grids += '<div class="div' + value.id + '">';
         if (value.id == 1 || value.id > 6) {
           grids +=

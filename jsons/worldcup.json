@@ -1,0 +1,596 @@
+{
+  "competition": {
+    "id": 2000,
+    "area": {
+      "id": 2267,
+      "name": "World"
+    },
+    "name": "FIFA World Cup",
+    "code": "WC",
+    "plan": "TIER_ONE",
+    "lastUpdated": "2018-08-23T12:16:17Z"
+  },
+  "season": {
+    "id": 1,
+    "startDate": "2018-06-14",
+    "endDate": "2018-07-15",
+    "currentMatchday": 3,
+    "winner": {
+      "id": 773,
+      "name": "France",
+      "shortName": "France",
+      "tla": "FRA",
+      "crestUrl": "https://upload.wikimedia.org/wikipedia/en/c/c3/Flag_of_France.svg"
+    }
+  },
+  "standings": [
+    {
+      "stage": "GROUP_STAGE",
+      "type": "TOTAL",
+      "group": "GROUP_A",
+      "table": [
+        {
+          "position": 1,
+          "team": {
+            "id": 758,
+            "name": "Uruguay",
+            "crestUrl": null
+          },
+          "playedGames": 3,
+          "won": 3,
+          "draw": 0,
+          "lost": 0,
+          "points": 9,
+          "goalsFor": 5,
+          "goalsAgainst": 0,
+          "goalDifference": 5
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": 808,
+            "name": "Russia",
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/en/f/f3/Flag_of_Russia.svg"
+          },
+          "playedGames": 3,
+          "won": 2,
+          "draw": 0,
+          "lost": 1,
+          "points": 6,
+          "goalsFor": 8,
+          "goalsAgainst": 4,
+          "goalDifference": 4
+        },
+        {
+          "position": 3,
+          "team": {
+            "id": 801,
+            "name": "Saudi Arabia",
+            "crestUrl": ""
+          },
+          "playedGames": 3,
+          "won": 1,
+          "draw": 0,
+          "lost": 2,
+          "points": 3,
+          "goalsFor": 2,
+          "goalsAgainst": 7,
+          "goalDifference": -5
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": 825,
+            "name": "Egypt",
+            "crestUrl": ""
+          },
+          "playedGames": 3,
+          "won": 0,
+          "draw": 0,
+          "lost": 3,
+          "points": 0,
+          "goalsFor": 2,
+          "goalsAgainst": 6,
+          "goalDifference": -4
+        }
+      ]
+    },
+    {
+      "stage": "GROUP_STAGE",
+      "type": "TOTAL",
+      "group": "GROUP_B",
+      "table": [
+        {
+          "position": 1,
+          "team": {
+            "id": 760,
+            "name": "Spain",
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/en/9/9a/Flag_of_Spain.svg"
+          },
+          "playedGames": 3,
+          "won": 1,
+          "draw": 2,
+          "lost": 0,
+          "points": 5,
+          "goalsFor": 6,
+          "goalsAgainst": 5,
+          "goalDifference": 1
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": 765,
+            "name": "Portugal",
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Portugal.svg"
+          },
+          "playedGames": 3,
+          "won": 1,
+          "draw": 2,
+          "lost": 0,
+          "points": 5,
+          "goalsFor": 5,
+          "goalsAgainst": 4,
+          "goalDifference": 1
+        },
+        {
+          "position": 3,
+          "team": {
+            "id": 840,
+            "name": "Iran",
+            "crestUrl": null
+          },
+          "playedGames": 3,
+          "won": 1,
+          "draw": 1,
+          "lost": 1,
+          "points": 4,
+          "goalsFor": 2,
+          "goalsAgainst": 2,
+          "goalDifference": 0
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": 815,
+            "name": "Morocco",
+            "crestUrl": ""
+          },
+          "playedGames": 3,
+          "won": 0,
+          "draw": 1,
+          "lost": 2,
+          "points": 1,
+          "goalsFor": 2,
+          "goalsAgainst": 4,
+          "goalDifference": -2
+        }
+      ]
+    },
+    {
+      "stage": "GROUP_STAGE",
+      "type": "TOTAL",
+      "group": "GROUP_C",
+      "table": [
+        {
+          "position": 1,
+          "team": {
+            "id": 773,
+            "name": "France",
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/en/c/c3/Flag_of_France.svg"
+          },
+          "playedGames": 3,
+          "won": 2,
+          "draw": 1,
+          "lost": 0,
+          "points": 7,
+          "goalsFor": 3,
+          "goalsAgainst": 1,
+          "goalDifference": 2
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": 782,
+            "name": "Denmark",
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/3/38/Flag_of_Denmark_%283-2%29.svg"
+          },
+          "playedGames": 3,
+          "won": 1,
+          "draw": 2,
+          "lost": 0,
+          "points": 5,
+          "goalsFor": 2,
+          "goalsAgainst": 1,
+          "goalDifference": 1
+        },
+        {
+          "position": 3,
+          "team": {
+            "id": 832,
+            "name": "Peru",
+            "crestUrl": null
+          },
+          "playedGames": 3,
+          "won": 1,
+          "draw": 0,
+          "lost": 2,
+          "points": 3,
+          "goalsFor": 2,
+          "goalsAgainst": 2,
+          "goalDifference": 0
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": 779,
+            "name": "Australia",
+            "crestUrl": ""
+          },
+          "playedGames": 3,
+          "won": 0,
+          "draw": 1,
+          "lost": 2,
+          "points": 1,
+          "goalsFor": 2,
+          "goalsAgainst": 5,
+          "goalDifference": -3
+        }
+      ]
+    },
+    {
+      "stage": "GROUP_STAGE",
+      "type": "TOTAL",
+      "group": "GROUP_D",
+      "table": [
+        {
+          "position": 1,
+          "team": {
+            "id": 799,
+            "name": "Croatia",
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Flag_of_Croatia.svg"
+          },
+          "playedGames": 3,
+          "won": 3,
+          "draw": 0,
+          "lost": 0,
+          "points": 9,
+          "goalsFor": 7,
+          "goalsAgainst": 1,
+          "goalDifference": 6
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": 762,
+            "name": "Argentina",
+            "crestUrl": ""
+          },
+          "playedGames": 3,
+          "won": 1,
+          "draw": 1,
+          "lost": 1,
+          "points": 4,
+          "goalsFor": 3,
+          "goalsAgainst": 5,
+          "goalDifference": -2
+        },
+        {
+          "position": 3,
+          "team": {
+            "id": 776,
+            "name": "Nigeria",
+            "crestUrl": ""
+          },
+          "playedGames": 3,
+          "won": 1,
+          "draw": 0,
+          "lost": 2,
+          "points": 3,
+          "goalsFor": 3,
+          "goalsAgainst": 4,
+          "goalDifference": -1
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": 1066,
+            "name": "Iceland",
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Flag_of_Iceland.svg"
+          },
+          "playedGames": 3,
+          "won": 0,
+          "draw": 1,
+          "lost": 2,
+          "points": 1,
+          "goalsFor": 2,
+          "goalsAgainst": 5,
+          "goalDifference": -3
+        }
+      ]
+    },
+    {
+      "stage": "GROUP_STAGE",
+      "type": "TOTAL",
+      "group": "GROUP_E",
+      "table": [
+        {
+          "position": 1,
+          "team": {
+            "id": 764,
+            "name": "Brazil",
+            "crestUrl": ""
+          },
+          "playedGames": 3,
+          "won": 2,
+          "draw": 1,
+          "lost": 0,
+          "points": 7,
+          "goalsFor": 5,
+          "goalsAgainst": 1,
+          "goalDifference": 4
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": 788,
+            "name": "Switzerland",
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/0/08/Flag_of_Switzerland_%28Pantone%29.svg"
+          },
+          "playedGames": 3,
+          "won": 1,
+          "draw": 2,
+          "lost": 0,
+          "points": 5,
+          "goalsFor": 5,
+          "goalsAgainst": 4,
+          "goalDifference": 1
+        },
+        {
+          "position": 3,
+          "team": {
+            "id": 780,
+            "name": "Serbia",
+            "crestUrl": ""
+          },
+          "playedGames": 3,
+          "won": 1,
+          "draw": 0,
+          "lost": 2,
+          "points": 3,
+          "goalsFor": 2,
+          "goalsAgainst": 4,
+          "goalDifference": -2
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": 793,
+            "name": "Costa Rica",
+            "crestUrl": ""
+          },
+          "playedGames": 3,
+          "won": 0,
+          "draw": 1,
+          "lost": 2,
+          "points": 1,
+          "goalsFor": 2,
+          "goalsAgainst": 5,
+          "goalDifference": -3
+        }
+      ]
+    },
+    {
+      "stage": "GROUP_STAGE",
+      "type": "TOTAL",
+      "group": "GROUP_F",
+      "table": [
+        {
+          "position": 1,
+          "team": {
+            "id": 792,
+            "name": "Sweden",
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/en/4/4c/Flag_of_Sweden.svg"
+          },
+          "playedGames": 3,
+          "won": 2,
+          "draw": 0,
+          "lost": 1,
+          "points": 6,
+          "goalsFor": 5,
+          "goalsAgainst": 2,
+          "goalDifference": 3
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": 769,
+            "name": "Mexico",
+            "crestUrl": ""
+          },
+          "playedGames": 3,
+          "won": 2,
+          "draw": 0,
+          "lost": 1,
+          "points": 6,
+          "goalsFor": 3,
+          "goalsAgainst": 4,
+          "goalDifference": -1
+        },
+        {
+          "position": 3,
+          "team": {
+            "id": 772,
+            "name": "Korea Republic",
+            "crestUrl": ""
+          },
+          "playedGames": 3,
+          "won": 1,
+          "draw": 0,
+          "lost": 2,
+          "points": 3,
+          "goalsFor": 3,
+          "goalsAgainst": 3,
+          "goalDifference": 0
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": 759,
+            "name": "Germany",
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/en/b/ba/Flag_of_Germany.svg"
+          },
+          "playedGames": 3,
+          "won": 1,
+          "draw": 0,
+          "lost": 2,
+          "points": 3,
+          "goalsFor": 2,
+          "goalsAgainst": 4,
+          "goalDifference": -2
+        }
+      ]
+    },
+    {
+      "stage": "GROUP_STAGE",
+      "type": "TOTAL",
+      "group": "GROUP_G",
+      "table": [
+        {
+          "position": 1,
+          "team": {
+            "id": 805,
+            "name": "Belgium",
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Flag_of_Belgium.svg"
+          },
+          "playedGames": 3,
+          "won": 3,
+          "draw": 0,
+          "lost": 0,
+          "points": 9,
+          "goalsFor": 9,
+          "goalsAgainst": 2,
+          "goalDifference": 7
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": 770,
+            "name": "England",
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/en/b/be/Flag_of_England.svg"
+          },
+          "playedGames": 3,
+          "won": 2,
+          "draw": 0,
+          "lost": 1,
+          "points": 6,
+          "goalsFor": 8,
+          "goalsAgainst": 3,
+          "goalDifference": 5
+        },
+        {
+          "position": 3,
+          "team": {
+            "id": 802,
+            "name": "Tunisia",
+            "crestUrl": ""
+          },
+          "playedGames": 3,
+          "won": 1,
+          "draw": 0,
+          "lost": 2,
+          "points": 3,
+          "goalsFor": 5,
+          "goalsAgainst": 8,
+          "goalDifference": -3
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": 1836,
+            "name": "Panama",
+            "crestUrl": null
+          },
+          "playedGames": 3,
+          "won": 0,
+          "draw": 0,
+          "lost": 3,
+          "points": 0,
+          "goalsFor": 2,
+          "goalsAgainst": 11,
+          "goalDifference": -9
+        }
+      ]
+    },
+    {
+      "stage": "GROUP_STAGE",
+      "type": "TOTAL",
+      "group": "GROUP_H",
+      "table": [
+        {
+          "position": 1,
+          "team": {
+            "id": 818,
+            "name": "Colombia",
+            "crestUrl": ""
+          },
+          "playedGames": 3,
+          "won": 2,
+          "draw": 0,
+          "lost": 1,
+          "points": 6,
+          "goalsFor": 5,
+          "goalsAgainst": 2,
+          "goalDifference": 3
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": 766,
+            "name": "Japan",
+            "crestUrl": ""
+          },
+          "playedGames": 3,
+          "won": 1,
+          "draw": 1,
+          "lost": 1,
+          "points": 4,
+          "goalsFor": 4,
+          "goalsAgainst": 4,
+          "goalDifference": 0
+        },
+        {
+          "position": 3,
+          "team": {
+            "id": 804,
+            "name": "Senegal",
+            "crestUrl": ""
+          },
+          "playedGames": 3,
+          "won": 1,
+          "draw": 1,
+          "lost": 1,
+          "points": 4,
+          "goalsFor": 4,
+          "goalsAgainst": 4,
+          "goalDifference": 0
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": 794,
+            "name": "Poland",
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/en/1/12/Flag_of_Poland.svg"
+          },
+          "playedGames": 3,
+          "won": 1,
+          "draw": 0,
+          "lost": 2,
+          "points": 3,
+          "goalsFor": 2,
+          "goalsAgainst": 5,
+          "goalDifference": -3
+        }
+      ]
+    }
+  ]
+}

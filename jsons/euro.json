@@ -1,0 +1,22 @@
+{
+  "filters": {},
+  "competition": {
+    "id": 2018,
+    "area": {
+      "id": 2077,
+      "name": "Europe"
+    },
+    "name": "European Championship",
+    "code": "EC",
+    "plan": "TIER_ONE",
+    "lastUpdated": "2018-08-23T12:16:01Z"
+  },
+  "season": {
+    "id": 507,
+    "startDate": "2020-06-12",
+    "endDate": "2020-07-12",
+    "currentMatchday": 1,
+    "winner": null
+  },
+  "standings": []
+}

@@ -1,13 +1,13 @@
 var rawbase =
   "https://raw.githubusercontent.com/patrykmysiorski/FootballProject/";
-var jsonloc = "add-competitions/competitions.json";
-var rootDirectory = "file:///C:/Users/Patryk/Desktop/FootballProject/";
+var jsonloc = "add-standings-for-leagues/jsons/competitions.json";
+
 $(document).ready(function() {
   $.getJSON(rawbase + jsonloc, function(data) {
     var grids = "";
     $.each(data, function(key, value) {
       $.each(value, function(key, value) {
-        grids += '<a href="' + rootDirectory + value.subPageUrl + '">';
+        grids += '<a href="leagues/' + value.subPageUrl + '">';
         grids += '<div class="div' + value.id + '">';
         if (value.id == 1 || value.id > 6) {
           grids +=

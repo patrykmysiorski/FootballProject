@@ -5,7 +5,7 @@
       "name": "UEFA Champions League",
       "code": "CL",
       "emblemUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bf/UEFA_Champions_League_logo_2.svg/1200px-UEFA_Champions_League_logo_2.svg.png",
-      "subPageUrl": "competitions/championsleague.html",
+      "subPageUrl": "championsleague.html",
       "currentSeason": {
         "id": 495,
         "startDate": "2019-06-25",
@@ -19,7 +19,7 @@
       "name": "Premier League",
       "code": "PL",
       "emblemUrl": "flags/england.png",
-      "subPageUrl": "competitions/england.html",
+      "subPageUrl": "england.html",
       "currentSeason": {
         "id": 468,
         "startDate": "2019-08-09",
@@ -33,7 +33,7 @@
       "name": "Bundesliga",
       "code": "BL1",
       "emblemUrl": "flags/germany.png",
-      "subPageUrl": "competitions/germany.html",
+      "subPageUrl": "germany.html",
       "currentSeason": {
         "id": 474,
         "startDate": "2019-08-16",
@@ -47,7 +47,7 @@
       "name": "Ligue 1",
       "code": "FL1",
       "emblemUrl": "flags/france.png",
-      "subPageUrl": "competitions/france.html",
+      "subPageUrl": "france.html",
       "currentSeason": {
         "id": 499,
         "startDate": "2019-08-09",
@@ -61,7 +61,7 @@
       "name": "Serie A",
       "code": "SA",
       "emblemUrl": "flags/italy.png",
-      "subPageUrl": "competitions/italy.html",
+      "subPageUrl": "italy.html",
       "currentSeason": {
         "id": 530,
         "startDate": "2019-08-24",
@@ -75,7 +75,7 @@
       "name": "Primera Division",
       "code": "PD",
       "emblemUrl": "flags/spain.png",
-      "subPageUrl": "competitions/spain.html",
+      "subPageUrl": "spain.html",
       "currentSeason": {
         "id": 519,
         "startDate": "2019-08-16",
@@ -89,7 +89,7 @@
       "name": "FIFA World Cup",
       "code": "WC",
       "emblemUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/6/67/2018_FIFA_World_Cup.svg/1200px-2018_FIFA_World_Cup.svg.png",
-      "subPageUrl": "competitions/worldcup.html",
+      "subPageUrl": "worldcup.html",
       "currentSeason": {
         "id": 1,
         "startDate": "2018-06-14",
@@ -109,7 +109,7 @@
       "name": "European Championship",
       "code": "EC",
       "emblemUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/9/96/UEFA_Euro_2020_Logo.svg/1200px-UEFA_Euro_2020_Logo.svg.png",
-      "subPageUrl": "competitions/euro.html",
+      "subPageUrl": "euro.html",
       "currentSeason": {
         "id": 507,
         "startDate": "2020-06-12",

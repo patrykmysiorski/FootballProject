@@ -90,7 +90,7 @@
           "team": {
             "id": 82,
             "name": "Getafe CF",
-            "crestUrl": "https://upload.wikimedia.org/wikipedia/en/7/7f/Getafe_logo.png"
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/4/46/Getafe_logo.svg/1200px-Getafe_logo.svg.png"
           },
           "playedGames": 27,
           "won": 13,
@@ -314,7 +314,7 @@
           "team": {
             "id": 745,
             "name": "CD Leganés",
-            "crestUrl": "http://upload.wikimedia.org/wikipedia/en/thumb/0/02/Club_Deportivo_Legan%C3%A9s.png/180px-Club_Deportivo_Legan%C3%A9s.png"
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b8/Club_Deportivo_Legan%C3%A9s_logo.svg/900px-Club_Deportivo_Legan%C3%A9s_logo.svg.png"
           },
           "playedGames": 27,
           "won": 5,

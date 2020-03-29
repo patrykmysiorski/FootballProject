@@ -2,7 +2,7 @@ $(document).ready(function() {
   $.ajax({
     type: "GET",
     url:
-      "https://raw.githubusercontent.com/patrykmysiorski/FootballProject/change-competitions-json-to-xml/xml/competitions.xml",
+      "https://raw.githubusercontent.com/patrykmysiorski/FootballProject/master/xml/competitions.xml",
     dataType: "xml",
     success: xmlParser
   });

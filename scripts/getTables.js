@@ -1,7 +1,7 @@
 var scriptID = document.getElementById("getTables");
 var leagueCode = scriptID.getAttribute("data");
 var rawbase =
-  "https://raw.githubusercontent.com/patrykmysiorski/FootballProject/add-standings-for-leagues/jsons/";
+  "https://raw.githubusercontent.com/patrykmysiorski/FootballProject/master/jsons/";
 var jsonloc = "";
 
 let championsSpots = [];

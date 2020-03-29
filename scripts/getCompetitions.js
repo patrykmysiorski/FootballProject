@@ -1,26 +1,47 @@
-var rawbase =
-  "https://raw.githubusercontent.com/patrykmysiorski/FootballProject/";
-var jsonloc = "add-standings-for-leagues/jsons/competitions.json";
-
 $(document).ready(function() {
-  $.getJSON(rawbase + jsonloc, function(data) {
-    var grids = "";
-    $.each(data, function(key, value) {
-      $.each(value, function(key, value) {
-        grids += '<a href="leagues/' + value.subPageUrl + '">';
-        grids += '<div class="div' + value.id + '">';
-        if (value.id == 1 || value.id > 6) {
-          grids +=
-            '<img src="' + value.emblemUrl + '"width="200" height="100" />';
-        } else {
-          grids += '<img src="../' + value.emblemUrl + '" />';
-        }
-
-        grids += "<h2>" + value.name + "</h2>";
-        grids += "</div>";
-        grids += "</a>";
-      });
-    });
-    $("#parent").append(grids);
+  $.ajax({
+    type: "GET",
+    url:
+      "https://raw.githubusercontent.com/patrykmysiorski/FootballProject/change-competitions-json-to-xml/xml/competitions.xml",
+    dataType: "xml",
+    success: xmlParser
   });
 });
+
+function xmlParser(xml) {
+  var grids = "";
+  var subPageUrl = "";
+  var id = "";
+  var emblemUrl = "";
+  var name = "";
+  var correctId = "";
+  $(xml)
+    .find("competition")
+    .each(function() {
+      subPageUrl = $(this)
+        .find("subPageUrl")
+        .text();
+      id = $(this)
+        .find("id")
+        .text();
+      emblemUrl = $(this)
+        .find("emblemUrl")
+        .text();
+      name = $(this)
+        .find("name")
+        .text();
+      grids += '<a href="leagues/' + subPageUrl + '">';
+      grids += '<div class="div' + id + '">';
+      correctId = id.charAt(0);
+      if (correctId == 1 || correctId > 6) {
+        grids += '<img src="' + emblemUrl + '"width="200" height="100" />';
+      } else {
+        grids += '<img src="../' + emblemUrl + '" />';
+      }
+
+      grids += "<h2>" + name + "</h2>";
+      grids += "</div>";
+      grids += "</a>";
+    });
+  $("#parent").append(grids);
+}

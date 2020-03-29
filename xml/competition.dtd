@@ -1,0 +1,7 @@
+<!ELEMENT competition (id,name,code,emblemUrl,subPageUrl,currentSeason)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT code (#PCDATA)>
+<!ELEMENT emblemUrl (#PCDATA)>
+<!ELEMENT subPageUrl (#PCDATA)>
+<!ELEMENT currentSeason (#PCDATA)>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <root>
-  <competitions>
+  <competition>
     <id>1</id>
     <name>UEFA Champions League</name>
     <code>CL</code>
@@ -13,8 +13,8 @@
       <currentMatchday>6</currentMatchday>
       <winner/>
     </currentSeason>
-  </competitions>
-  <competitions>
+  </competition>
+  <competition>
     <id>2</id>
     <name>Premier League</name>
     <code>PL</code>
@@ -27,8 +27,8 @@
       <currentMatchday>30</currentMatchday>
       <winner/>
     </currentSeason>
-  </competitions>
-  <competitions>
+  </competition>
+  <competition>
     <id>3</id>
     <name>Bundesliga</name>
     <code>BL1</code>
@@ -41,8 +41,8 @@
       <currentMatchday>26</currentMatchday>
       <winner/>
     </currentSeason>
-  </competitions>
-  <competitions>
+  </competition>
+  <competition>
     <id>4</id>
     <name>Ligue 1</name>
     <code>FL1</code>
@@ -55,8 +55,8 @@
       <currentMatchday>29</currentMatchday>
       <winner/>
     </currentSeason>
-  </competitions>
-  <competitions>
+  </competition>
+  <competition>
     <id>5</id>
     <name>Serie A</name>
     <code>SA</code>
@@ -69,8 +69,8 @@
       <currentMatchday>27</currentMatchday>
       <winner/>
     </currentSeason>
-  </competitions>
-  <competitions>
+  </competition>
+  <competition>
     <id>6</id>
     <name>Primera Division</name>
     <code>PD</code>
@@ -83,8 +83,8 @@
       <currentMatchday>28</currentMatchday>
       <winner/>
     </currentSeason>
-  </competitions>
-  <competitions>
+  </competition>
+  <competition>
     <id>7</id>
     <name>FIFA World Cup</name>
     <code>WC</code>
@@ -103,8 +103,8 @@
         <crestUrl>https://upload.wikimedia.org/wikipedia/en/c/c3/Flag_of_France.svg</crestUrl>
       </winner>
     </currentSeason>
-  </competitions>
-  <competitions>
+  </competition>
+  <competition>
     <id>8</id>
     <name>European Championship</name>
     <code>EC</code>
@@ -117,5 +117,5 @@
       <currentMatchday>1</currentMatchday>
       <winner/>
     </currentSeason>
-  </competitions>
+  </competition>
 </root>

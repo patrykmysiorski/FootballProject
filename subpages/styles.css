@@ -1,0 +1,137 @@
+body {
+  background-color: #282c34;
+  padding: 20px;
+  font-family: Arial;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.championsLeagueSpot {
+  background-color: #00427a !important;
+}
+
+.championsLeagueQualificationSpot {
+  background-color: #1dabf3 !important;
+}
+
+.europaLeagueSpot {
+  background-color: #7d0025 !important;
+}
+
+.europaLeagueQualfication {
+  background-color: darkviolet !important;
+}
+
+.degradationSpot {
+  background-color: #ff4342 !important;
+}
+
+.degradationPlayOffSpot {
+  background-color: #bb0301 !important;
+}
+
+.tg td {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  padding: 10px 5px;
+  overflow: hidden;
+  word-break: normal;
+  background-color: #ebf5ff;
+}
+.tg th {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 10px 5px;
+  overflow: hidden;
+  word-break: normal;
+  color: #fff;
+  background-color: #409cff;
+}
+.tg .tg-cbli {
+  text-align: center;
+  vertical-align: middle;
+  position: sticky;
+  position: -webkit-sticky;
+  top: -1px;
+  will-change: transform;
+}
+.tg .tg-ul38 {
+  text-align: center;
+  vertical-align: top;
+  position: sticky;
+  position: -webkit-sticky;
+  top: -1px;
+  will-change: transform;
+}
+.tg .blueRow {
+  background-color: #718792;
+  text-align: center;
+  vertical-align: top;
+}
+.tg .whiteRow {
+  background-color: #1b3039;
+  text-align: center;
+  vertical-align: top;
+}
+
+.description {
+  float: left;
+  color: white;
+  margin-left: 100px;
+}
+
+.champions {
+  width: 20px;
+  height: 20px;
+  background-color: #00427a;
+}
+
+.championsQualification {
+  width: 20px;
+  height: 20px;
+  background-color: #1dabf3;
+}
+
+.europa {
+  width: 20px;
+  height: 20px;
+  background-color: #7d0025;
+}
+
+.europaQualification {
+  width: 20px;
+  height: 20px;
+  background-color: darkviolet;
+}
+
+.degradationPlayOff {
+  width: 20px;
+  height: 20px;
+  background-color: #bb0301;
+}
+
+.degradation {
+  width: 20px;
+  height: 20px;
+  background-color: #ff4342;
+}
+
+.tg-wrap {
+  color: white;
+  margin-left: auto;
+  float: left;
+}
+@media screen and (max-width: 767px) {
+  .tg {
+    width: auto !important;
+  }
+  .tg col {
+    width: auto !important;
+  }
+  .tg-wrap {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}

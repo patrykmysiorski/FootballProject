@@ -1,0 +1,317 @@
+{
+  "competition": {
+    "id": 2002,
+    "area": {
+      "id": 2088,
+      "name": "Germany"
+    },
+    "name": "Bundesliga",
+    "code": "BL1",
+    "plan": "TIER_ONE",
+    "lastUpdated": "2020-03-21T00:00:07Z"
+  },
+  "season": {
+    "id": 474,
+    "startDate": "2019-08-16",
+    "endDate": "2020-05-16",
+    "currentMatchday": 28,
+    "winner": null
+  },
+  "standings": [
+    {
+      "stage": "REGULAR_SEASON",
+      "type": "TOTAL",
+      "group": null,
+      "table": [
+        {
+          "position": 1,
+          "team": {
+            "id": 5,
+            "name": "FC Bayern München",
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg"
+          },
+          "playedGames": 25,
+          "won": 17,
+          "draw": 4,
+          "lost": 4,
+          "points": 55,
+          "goalsFor": 73,
+          "goalsAgainst": 26,
+          "goalDifference": 47
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": 4,
+            "name": "BV Borussia 09 Dortmund",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/commons/6/67/Borussia_Dortmund_logo.svg"
+          },
+          "playedGames": 25,
+          "won": 15,
+          "draw": 6,
+          "lost": 4,
+          "points": 51,
+          "goalsFor": 68,
+          "goalsAgainst": 33,
+          "goalDifference": 35
+        },
+        {
+          "position": 3,
+          "team": {
+            "id": 721,
+            "name": "RB Leipzig",
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/en/0/04/RB_Leipzig_2014_logo.svg"
+          },
+          "playedGames": 25,
+          "won": 14,
+          "draw": 8,
+          "lost": 3,
+          "points": 50,
+          "goalsFor": 62,
+          "goalsAgainst": 26,
+          "goalDifference": 36
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": 18,
+            "name": "Borussia Mönchengladbach",
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/8/81/Borussia_M%C3%B6nchengladbach_logo.svg"
+          },
+          "playedGames": 25,
+          "won": 15,
+          "draw": 4,
+          "lost": 6,
+          "points": 49,
+          "goalsFor": 49,
+          "goalsAgainst": 30,
+          "goalDifference": 19
+        },
+        {
+          "position": 5,
+          "team": {
+            "id": 3,
+            "name": "Bayer 04 Leverkusen",
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/en/5/59/Bayer_04_Leverkusen_logo.svg"
+          },
+          "playedGames": 25,
+          "won": 14,
+          "draw": 5,
+          "lost": 6,
+          "points": 47,
+          "goalsFor": 45,
+          "goalsAgainst": 30,
+          "goalDifference": 15
+        },
+        {
+          "position": 6,
+          "team": {
+            "id": 6,
+            "name": "FC Schalke 04",
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/FC_Schalke_04_Logo.svg"
+          },
+          "playedGames": 25,
+          "won": 9,
+          "draw": 10,
+          "lost": 6,
+          "points": 37,
+          "goalsFor": 33,
+          "goalsAgainst": 36,
+          "goalDifference": -3
+        },
+        {
+          "position": 7,
+          "team": {
+            "id": 11,
+            "name": "VfL Wolfsburg",
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Logo-VfL-Wolfsburg.svg"
+          },
+          "playedGames": 25,
+          "won": 9,
+          "draw": 9,
+          "lost": 7,
+          "points": 36,
+          "goalsFor": 34,
+          "goalsAgainst": 30,
+          "goalDifference": 4
+        },
+        {
+          "position": 8,
+          "team": {
+            "id": 17,
+            "name": "SC Freiburg",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/f/f1/SC-Freiburg_Logo-neu.svg"
+          },
+          "playedGames": 25,
+          "won": 10,
+          "draw": 6,
+          "lost": 9,
+          "points": 36,
+          "goalsFor": 34,
+          "goalsAgainst": 35,
+          "goalDifference": -1
+        },
+        {
+          "position": 9,
+          "team": {
+            "id": 2,
+            "name": "TSG 1899 Hoffenheim",
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Logo_TSG_Hoffenheim.svg"
+          },
+          "playedGames": 25,
+          "won": 10,
+          "draw": 5,
+          "lost": 10,
+          "points": 35,
+          "goalsFor": 35,
+          "goalsAgainst": 43,
+          "goalDifference": -8
+        },
+        {
+          "position": 10,
+          "team": {
+            "id": 1,
+            "name": "1. FC Köln",
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/1.FC_K%C3%B6ln_escudo.png"
+          },
+          "playedGames": 25,
+          "won": 10,
+          "draw": 2,
+          "lost": 13,
+          "points": 32,
+          "goalsFor": 39,
+          "goalsAgainst": 45,
+          "goalDifference": -6
+        },
+        {
+          "position": 11,
+          "team": {
+            "id": 28,
+            "name": "1. FC Union Berlin",
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/6/68/1._FC_Union_Berlin_1966_-_1990.gif"
+          },
+          "playedGames": 25,
+          "won": 9,
+          "draw": 3,
+          "lost": 13,
+          "points": 30,
+          "goalsFor": 32,
+          "goalsAgainst": 41,
+          "goalDifference": -9
+        },
+        {
+          "position": 12,
+          "team": {
+            "id": 19,
+            "name": "Eintracht Frankfurt",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/commons/0/04/Eintracht_Frankfurt_Logo.svg"
+          },
+          "playedGames": 24,
+          "won": 8,
+          "draw": 4,
+          "lost": 12,
+          "points": 28,
+          "goalsFor": 38,
+          "goalsAgainst": 41,
+          "goalDifference": -3
+        },
+        {
+          "position": 13,
+          "team": {
+            "id": 9,
+            "name": "Hertha BSC",
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/8/81/Hertha_BSC_Logo_2012.svg"
+          },
+          "playedGames": 25,
+          "won": 7,
+          "draw": 7,
+          "lost": 11,
+          "points": 28,
+          "goalsFor": 32,
+          "goalsAgainst": 48,
+          "goalDifference": -16
+        },
+        {
+          "position": 14,
+          "team": {
+            "id": 16,
+            "name": "FC Augsburg",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/b/b5/Logo_FC_Augsburg.svg"
+          },
+          "playedGames": 25,
+          "won": 7,
+          "draw": 6,
+          "lost": 12,
+          "points": 27,
+          "goalsFor": 36,
+          "goalsAgainst": 52,
+          "goalDifference": -16
+        },
+        {
+          "position": 15,
+          "team": {
+            "id": 15,
+            "name": "1. FSV Mainz 05",
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg"
+          },
+          "playedGames": 25,
+          "won": 8,
+          "draw": 2,
+          "lost": 15,
+          "points": 26,
+          "goalsFor": 34,
+          "goalsAgainst": 53,
+          "goalDifference": -19
+        },
+        {
+          "position": 16,
+          "team": {
+            "id": 24,
+            "name": "TSV Fortuna 95 Düsseldorf",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/commons/9/94/Fortuna_D%C3%BCsseldorf.svg"
+          },
+          "playedGames": 25,
+          "won": 5,
+          "draw": 7,
+          "lost": 13,
+          "points": 22,
+          "goalsFor": 27,
+          "goalsAgainst": 50,
+          "goalDifference": -23
+        },
+        {
+          "position": 17,
+          "team": {
+            "id": 12,
+            "name": "SV Werder Bremen",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg"
+          },
+          "playedGames": 24,
+          "won": 4,
+          "draw": 6,
+          "lost": 14,
+          "points": 18,
+          "goalsFor": 27,
+          "goalsAgainst": 55,
+          "goalDifference": -28
+        },
+        {
+          "position": 18,
+          "team": {
+            "id": 29,
+            "name": "SC Paderborn 07",
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/SC_Paderborn_07_Logo.svg"
+          },
+          "playedGames": 25,
+          "won": 4,
+          "draw": 4,
+          "lost": 17,
+          "points": 16,
+          "goalsFor": 30,
+          "goalsAgainst": 54,
+          "goalDifference": -24
+        }
+      ]
+    }
+  ]
+}

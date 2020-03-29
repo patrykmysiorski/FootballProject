@@ -156,7 +156,7 @@
           "team": {
             "id": 112,
             "name": "Parma Calcio 1913",
-            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/e/e2/FC_Parma.svg"
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/4/40/Logo_Parma_Calcio_1913_%28adozione_2016%29.png"
           },
           "playedGames": 25,
           "won": 10,
@@ -236,7 +236,7 @@
           "team": {
             "id": 115,
             "name": "Udinese Calcio",
-            "crestUrl": "https://upload.wikimedia.org/wikipedia/de/9/9c/Parma_Calcio_1913_2016.png"
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/en/f/f2/Udinese_calcio.png"
           },
           "playedGames": 26,
           "won": 7,
